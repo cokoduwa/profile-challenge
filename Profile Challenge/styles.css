@@ -1,0 +1,120 @@
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    margin: 0;
+}
+
+.content {
+    width: 570px;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 400px;
+    border: solid #FFFFFF 10px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 42px;
+    border-top: 1px #C4C4C4 solid;
+    border-bottom: 1px #C4C4C4 solid;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+h1, h2 {
+    margin-top: 0;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+h3, p {
+    margin-bottom: 0;
+}
+
+.small {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+h1, h2, body {
+    font-weight: 300;
+}
+
+.bold-text {
+    display: block;
+    font-weight: 900;
+}
+
+h1 > .bold-text {
+    font-size: 80px;
+    color: #99D930;
+}
+
+h2 > .bold-text {
+    font-size: 60px;
+    color: #99D930;
+}
+
+a {
+    color: #99D930;
+    font-weight: 900;
+}
+
+a:hover {
+    color: #131313;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.dark {
+    background-color: #252525;
+    color: #FFFFFF;
+}
+
+.button{
+    background-color: #99D930;
+    color: #252525;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+.button:hover, .button:focus {
+    background-color: #252525;
+    color: #FFFFFF;
+}
+
+article .button:hover, article .button:focus {
+    background-color: #FFFFFF;
+    color:#252525
+}
+
+.name, time {
+    color: #99D930;
+    font-weight: 900;
+}
+/* .first {
+    background-color: #D7D7D7;
+
+}
+
+.second {
+    background-color: #FFEAEA;
+}
+
+.third {
+    background-color: #EAF9FF;
+} */
